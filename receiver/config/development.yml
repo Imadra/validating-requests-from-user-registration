@@ -1,0 +1,16 @@
+SERVER:
+  endpoint: /v2/ping
+  port: 1082
+
+CLICKHOUSE:
+  host: 192.168.90.7
+  shedding_interval: 2000
+  port: 8123
+
+DB:
+  host: localhost
+  port: 5432
+  database: counter
+  user: postgres
+  password: dbM9{xJGn~~fXDi?RIu7%3S%kt9oPgBF
+

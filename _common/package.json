@@ -1,0 +1,11 @@
+{
+  "name": "app-common",
+  "version": "1.0.0",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "nats": "^0.7.24",
+    "pg": "^7.4.0",
+    "pg-native": "^2.2.0",
+    "rethinkdbdash": "^2.3.31"
+  }
+}

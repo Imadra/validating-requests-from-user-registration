@@ -1,0 +1,27 @@
+{
+  "name": "receiver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "_moduleAliases": {
+    "@app": "app",
+    "@driver": "../_common/drivers"
+  },
+  "scripts": {
+    "start": "pm2 start index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@apla/clickhouse": "^1.5.0",
+    "config": "^1.29.2",
+    "geoip-lite": "^1.2.1",
+    "is-uuid": "^1.0.2",
+    "js-yaml": "^3.10.0",
+    "micro": "^9.1.0",
+    "module-alias": "^2.0.3",
+    "pm2": "^2.9.1",
+    "useragent": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
