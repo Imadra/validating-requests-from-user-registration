@@ -9,4 +9,5 @@ Suspicious request can be of many types:
 clienttime differs from real time to more than 3 days
 url is not starting from http or https, as well as referrer
 Data written contains apostrophes: ', ''
-And any other validating strategies are done in this repository
+
+And many other validating strategies are done in this repository
